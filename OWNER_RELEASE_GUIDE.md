@@ -1,92 +1,87 @@
-# 📦 ViralClip AI — Owner's GitHub Upload Guide
+# 📦 ViralClip AI — Publishing a Public Experimental Release
+### 🧪 By Otop Sirois
 
-**🎬 ViralClip AI — By Otop Sirois**
+This is the creator's checklist for making a **publicly downloadable experimental beta**. ViralClip AI was mainly built for me and my friends to try, and other people are welcome to experiment too.
 
-This guide is for Otop, to publish a **private beta download** for invited friends.
+## 1️⃣ Check the app package
 
-## ✅ 1. Find the finished app — use `dist`, NOT `build`
-
-The Windows Explorer screenshot shows this location:
-
-```text
-Downloads\ViralClipAI_Final\viralclip_ai\build\ViralClipAI
-```
-
-⚠️ **This is PyInstaller's temporary build folder**, containing `.toc`, `.pkg`, and other build artifacts. **Don't ZIP or share it.**
-
-1. In File Explorer, click the **`viralclip_ai`** breadcrumb in the address bar (or navigate two levels up).
-2. Open the **`dist`** folder, which should be beside `build`.
-3. Look for one of these layouts:
-
-**One-folder output (common):**
+Use PyInstaller's **`dist/`** output, **not** `build/`:
 
 ```text
 viralclip_ai/
+├── build/         ← temporary build artifacts — don't upload
 └── dist/
     └── ViralClipAI/
         ├── ViralClipAI.exe
-        └── _internal/
-            └── ... supporting files ...
+        ├── _internal/
+        └── bin/
+            ├── ffmpeg.exe
+            └── ffprobe.exe
 ```
 
-ZIP the entire `dist\ViralClipAI` folder. Include every file and folder inside.
+If your build layout differs, keep every required runtime file. **ZIP the entire `dist/ViralClipAI/` folder**, not only the EXE.
 
-**One-file output:**
+## 2️⃣ Test before releasing
 
-```text
-viralclip_ai/
-└── dist/
-    └── ViralClipAI.exe
-```
+- Launch the EXE from the folder you intend to ZIP.
+- Verify the interface opens and the first-run setup checks missing models.
+- Import a short test recording you own or may use.
+- Test at least one AI-selected clip with a playable MP4 output and captions.
+- Check exported file names and locations.
+- Be explicit about features you couldn't test.
 
-If it's truly a **one-file** build and the app runs without a neighbouring `_internal` folder, ZIP that EXE. Also include any required external assets not bundled by the build.
+⚠️ The current cropping and gameplay/facecam layouts are experimental. Don't promise they're always correct.
 
-If there's no `dist` output, the EXE build may be incomplete. Re-run `build_exe.bat` or ask Claude to fix it; don't publish the `build` folder.
+## 3️⃣ Privacy & dependency checks
 
-## 🧪 2. Test before sharing
+Before making anything public:
 
-- Double-click the application **from the `dist` location**, not the `build` location.
-- Verify the dashboard launches.
-- Verify first-run component checks display correctly.
-- Import a short video you have permission to use.
-- Generate at least one 9:16 MP4 clip with captions.
-- Confirm the output plays.
-- If something fails, fix it first or clearly label the release as unverified.
+- Remove personal videos, transcripts, project caches, log files, tokens, API keys, credentials, and personal system paths.
+- Review the ZIP and project documents for private information.
+- Check third-party redistribution licenses (including FFmpeg builds and bundled Python libraries) and any applicable attribution or notices.
+- Only bundle software and models you're permitted to redistribute; when in doubt, let users download models from the original source on first launch.
+- Don't tell testers to disable antivirus or bypass Windows security warnings.
+- Prefer a clear version number and changelog for each new release.
 
-## 🗜️ 3. Create the downloadable ZIP
+## 4️⃣ Prepare `ViralClipAI_Portable.zip`
 
-1. Right-click the **entire finished `ViralClipAI` folder** inside `dist`.
-2. Select **Compress to ZIP file**.
-3. Name the archive **`ViralClipAI_Portable.zip`**.
-4. Open the ZIP and confirm it contains `ViralClipAI.exe` and all needed supporting files.
-5. Do **not** include your own source videos, transcripts, caches, logs, credentials, or personal settings.
+1. Right-click the complete portable application folder in `dist/`.
+2. Choose **Compress to ZIP file**.
+3. Name the archive `ViralClipAI_Portable.zip`.
+4. Open the ZIP and confirm the EXE plus all supporting folders are included.
 
-## 🚀 4. Upload as a GitHub release
+Do not upload `ViralClipAI_Final.zip` (source-only) as though it were the ready-to-run app.
 
-1. Open **[Create a Release](https://github.com/Otop-creator/ViralClip-AI/releases/new)**.
-2. Create tag: `v1.0.0-beta`.
-3. Title: **🎬 ViralClip AI — Private Beta | By Otop Sirois**.
-4. Add a short description, e.g. `Private Windows testing build. Download and extract the ZIP, run ViralClipAI.exe, and complete first-run local AI setup. Windows compatibility is still being tested.`
-5. Attach **`ViralClipAI_Portable.zip`** in **Assets**.
+## 5️⃣ Publish the beta on GitHub
+
+1. Open **[Create a new release](https://github.com/Otop-creator/ViralClip-AI/releases/new)**.
+2. Create tag: `v1.0.0-beta` (or the actual tested version).
+3. Title: **🎬 ViralClip AI — Experimental Beta | By Otop Sirois**.
+4. Description:
+   > 🧪 Personal experimental project built mainly for myself and friends to try. Now sharing it for anyone interested. Expect bugs and compatibility issues; this is not a professionally supported product. Extract the ZIP, launch ViralClipAI.exe, and follow the local AI setup steps.
+5. Attach `ViralClipAI_Portable.zip` in **Assets**.
 6. Select **Set as a pre-release** and publish.
-7. Check the **[Releases](https://github.com/Otop-creator/ViralClip-AI/releases)** page to confirm the attachment appears.
+7. Verify the ZIP appears on the [Releases page](https://github.com/Otop-creator/ViralClip-AI/releases).
 
-Your repository is **private**. Keep it that way and invite only the friends who need access.
+**A release cannot be downloaded until it has actually been uploaded and published.**
 
-## 👥 5. Give friends access
+## 6️⃣ Make the GitHub repository public (when ready)
 
-Go to repository **Settings → Collaborators** and invite your friends by GitHub username.
+Once you've reviewed the repository for private information:
 
-**Important:** On a personal-account private repository, collaborators may have **write** access, not only downloads. Use a private organization with read-only permissions if that matters. Don't share account passwords.
+1. Open repository **Settings**.
+2. Under **General**, scroll to **Danger Zone**.
+3. Select **Change repository visibility** → **Make public**.
+4. Review GitHub's confirmation and complete the visibility change.
 
-Send your friends the repository's Releases link and **[Friend Installation Guide](FRIEND_INSTALL_GUIDE.md)**.
+⚠️ **Making a repository public exposes its contents and history to everyone.** Review carefully before confirming. Publishing the repository and uploading a release are separate actions.
 
-## 🛠️ If the portable version doesn't work
+## 7️⃣ After release
 
-- Check that you zipped from `dist`, not `build`.
-- Check whether `_internal` was included.
-- Test on a second Windows computer when possible.
-- Ask Claude to rebuild the app in PyInstaller **one-folder** mode and verify all runtime assets.
+Share the repository link:
+https://github.com/Otop-creator/ViralClip-AI
+
+Ask testers for feedback. Keep changes incremental and label each unverified update as experimental.
 
 ---
 
