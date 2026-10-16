@@ -1,4 +1,4 @@
-# ViralClip AI — Publishing a Public Experimental Release
+# ViralClip AI Publishing a Public Experimental Release
 ### By Otop Sirois
 
 This is the creator's checklist for making a **publicly downloadable experimental beta**. ViralClip AI was mainly built for me and my friends to try, and other people are welcome to experiment too.
@@ -9,7 +9,7 @@ Use PyInstaller's **`dist/`** output, **not** `build/`:
 
 ```text
 viralclip_ai/
-├── build/ ← temporary build artifacts — don't upload
+├── build/ ← temporary build artifacts (don't upload)
 └── dist/
  └── ViralClipAI/
  ├── ViralClipAI.exe
@@ -56,7 +56,7 @@ Do not upload `ViralClipAI_Final.zip` (source-only) as though it were the ready-
 
 1. Open **[Create a new release](https://github.com/Otop-creator/ViralClip-AI/releases/new)**.
 2. Create tag: `v1.0.0-beta` (or the actual tested version).
-3. Title: ** ViralClip AI — Experimental Beta | By Otop Sirois**.
+3. Title: ** ViralClip AI Experimental Beta | By Otop Sirois**.
 4. Description:
  > Personal experimental project built mainly for myself and friends to try. Now sharing it for anyone interested. Expect bugs and compatibility issues; this is not a professionally supported product. Extract the ZIP, launch ViralClipAI.exe, and follow the local AI setup steps.
 5. Attach `ViralClipAI_Portable.zip` in **Assets**.
@@ -83,5 +83,5 @@ https://github.com/Otop-creator/ViralClip-AI
 
 Ask testers for feedback. Keep changes incremental and label each unverified update as experimental.
 
-** ViralClip AI — By Otop Sirois**
+** ViralClip AI by Otop Sirois**
 
