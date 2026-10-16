@@ -1,7 +1,7 @@
 # 🎬 ViralClip AI
 ### Local AI Video Clipping • Highlights • Animated Subtitles • Shorts
 
-** Created by Otop Sirois **
+**Created by Otop Sirois**
 
 > **EXPERIMENTAL PROJECT / EARLY BETA**
 >
@@ -9,7 +9,7 @@
 >
 > **This is not a finished or professionally supported product.** Expect bugs, unfinished features, inconsistent results, and possible compatibility problems. Use it at your own discretion and keep backups of important videos.
 
-** Import → Analyze → Clip → Caption → Export**
+**Import → Analyze → Clip → Caption → Export**
 
 ## What is ViralClip AI?
 
@@ -77,4 +77,4 @@ I originally built ViralClip AI to experiment with clipping streams and generati
 
 ---
 
-** ViralClip AI — By Otop Sirois**
+**ViralClip AI — By Otop Sirois**
