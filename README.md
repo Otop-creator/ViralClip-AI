@@ -47,15 +47,13 @@ These are **experimental features**, not promises of reliable performance. AI hi
 
 ## Requirements
 
-| Component | Notes |
-| --- | --- |
-| Windows 11, 64-bit | Main target; other platforms not verified |
-| RAM | 16 GB recommended |
-| Free disk space | Allow at least several GB for setup, app, and AI models |
-| FFmpeg + FFprobe | Included with the inspected portable build |
-| Ollama | Installed separately if missing |
-| `llama3.2:3b` | Local analysis model, approximately 2 GB |
-| Whisper base | Speech model, approximately 150 MB |
+- Windows 11, 64-bit: Main target; other platforms not verified
+- RAM: 16 GB recommended
+- Free disk space: Allow at least several GB for setup, app, and AI models
+- FFmpeg + FFprobe: Included with the inspected portable build
+- Ollama: Installed separately if missing
+- `llama3.2:3b`: Local analysis model, approximately 2 GB
+- Whisper base: Speech model, approximately 150 MB
 
 An internet connection is needed for initial model downloads. No paid AI API credits are required for local inference.
 
@@ -73,7 +71,7 @@ Do not disable Windows security protections to run an unfamiliar binary. Inspect
 
 I originally built ViralClip AI to experiment with clipping streams and generating Shorts for myself and my buddies. It's still a work in progress, but I figured I'd share the experiment for anyone interested in trying it out.
 
-**Don't expect perfection — it's just a fun project I'm learning from.**
+**Don't expect perfection. It's just a fun project I'm learning from.**
 
-**ViralClip AI — By Otop Sirois**
+**ViralClip AI by Otop Sirois**
 
