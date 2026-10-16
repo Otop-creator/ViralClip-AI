@@ -63,8 +63,6 @@ If computer use is unavailable, Claude can still walk you through these steps ma
 
 **Privacy and safety:** Don't disable antivirus/Windows protections; review software warnings carefully. Only process material you have permission to use. The author can't guarantee support or compatibility.
 
----
-
  **ViralClip AI — By Otop Sirois**
 *Made for fun, friends, and experimentation.*
 
