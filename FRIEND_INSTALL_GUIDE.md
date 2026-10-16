@@ -15,18 +15,26 @@ Welcome to the private beta! 🔒 This is a Windows desktop app for AI-assisted 
 
 ⚠️ **Do not open the EXE directly from the ZIP.** Do not use a `.lnk` desktop shortcut or the `build` folder: those aren't the transferable app. A correctly packaged Windows build should not require Python.
 
-## 2️⃣ Complete first-launch setup ⚙️
+## 2️⃣ Complete first-launch AI setup ⚙️
 
-The app may ask permission to download and install:
+**What is already in the portable ZIP?** ✅
+- `ViralClipAI.exe` — application
+- `_internal/` — packaged Python runtime and libraries (no separate Python install should be needed)
+- `bin/ffmpeg.exe` and `bin/ffprobe.exe` — video-processing tools
 
-| Tool | Why it's needed | Approximate download |
+**What must still be installed or downloaded separately?** 📥
+
+| Tool | Purpose | Approximate download |
 | --- | --- | --- |
-| FFmpeg | Video editing/export | ~100 MB |
-| Ollama | Local AI runtime | ~0.7–1 GB |
-| `llama3.2:3b` | Clip analysis model | ~2 GB |
-| Whisper base | Transcription/captions | ~150 MB |
+| **Ollama** | Runs the local AI model | ~0.7–1 GB |
+| **Llama 3.2 3B (`llama3.2:3b`)** | Analyzes transcripts and ranks moments | ~2 GB |
+| **Whisper base model** | Transcribes speech and times subtitles | ~150 MB |
 
-You may need several GB of free disk space and internet for initial setup. Check download sources and approve prompts; sizes are estimates. Retry unsuccessful installations.
+On first launch, follow the application's setup wizard and approve the missing-component installations. Download sizes are approximate. Have several GB of free storage and a stable connection. Download from trustworthy official sources.
+
+**If the app reports FFmpeg as missing**, even though the ZIP includes it, check that you kept the `bin` folder alongside the EXE. Don't move just the EXE.
+
+**Note:** The ZIP was inspected for contents, but the setup wizard and app haven't been verified on your friend's PC yet. If the wizard doesn't install a component correctly, share the error with Otop for troubleshooting.
 
 ## 3️⃣ Generate a clip 🎥 → 🧠 → ✂️ → 📱
 
