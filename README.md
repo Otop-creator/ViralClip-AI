@@ -36,6 +36,10 @@ Features depend on your installation and are not yet independently verified on o
 
 See [📖 Friend Installation Guide](FRIEND_INSTALL_GUIDE.md).
 
+### 🤖 Install with Claude Desktop (optional)
+
+Have Claude Desktop with authorized computer use? Copy the setup-and-testing prompt from **[🤖 Claude Setup Prompt](CLAUDE_SETUP_PROMPT.md)**. It helps install Ollama and missing AI models, then verifies your first video export. If computer use isn't available, follow the manual guide instead.
+
 ## ⚙️ System requirements
 
 - Windows 11, 64-bit (primary target)
