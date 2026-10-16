@@ -8,12 +8,12 @@ Welcome! This started as a personal project for me and my friends, and it's now 
 ## 1. Download the Windows app
 
 1. Visit **[ViralClip AI Releases](https://github.com/Otop-creator/ViralClip-AI/releases)**.
-2. If there is a beta release, download **`ViralClipAI_Portable.zip`**.
+2. Under **Assets**, download the portable Windows ZIP file.
 3. Right-click the downloaded ZIP and choose **Extract All**.
 4. Open the extracted app folder and find **`ViralClipAI.exe`**.
 5. Double-click it and follow the setup wizard.
 
-**At present a Windows release may not yet be available.** If the Releases page is empty, wait for the creator to upload a tested ZIP.
+**The experimental beta is available to download.** It has not been verified on every Windows computer, so setup or compatibility issues are possible.
 
  Keep the `ViralClipAI.exe`, `_internal/`, and `bin/` contents together.
  Don't run directly from the ZIP, and don't use a shortcut (`.lnk`) or PyInstaller's temporary `build` folder.
