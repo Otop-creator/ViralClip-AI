@@ -11,7 +11,7 @@ Computer use isn't available in every Claude setup. If it isn't available, Claud
 ```text
 # VIRALCLIP AI — WINDOWS INSTALLATION & TEST
 
-Help me install and test ViralClip AI — By Otop Sirois — on my Windows computer.
+Help me install and test ViralClip AI by Otop Sirois on my Windows computer.
 
 This is an EXPERIMENTAL personal project shared publicly for friends and others to try. It is not guaranteed to work and is not a professionally supported product.
 
