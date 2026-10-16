@@ -1,4 +1,4 @@
-# ViralClip AI — Installation Guide
+# ViralClip AI Installation Guide
 ### Experimental Early Beta • By Otop Sirois
 
 Welcome! This started as a personal project for me and my friends, and it's now shared for anyone curious to test.
@@ -7,7 +7,7 @@ Welcome! This started as a personal project for me and my friends, and it's now 
 
 ## 1. Download the Windows app
 
-1. Visit **[ViralClip AI — Releases](https://github.com/Otop-creator/ViralClip-AI/releases)**.
+1. Visit **[ViralClip AI Releases](https://github.com/Otop-creator/ViralClip-AI/releases)**.
 2. If there is a beta release, download **`ViralClipAI_Portable.zip`**.
 3. Right-click the downloaded ZIP and choose **Extract All**.
 4. Open the extracted app folder and find **`ViralClipAI.exe`**.
@@ -26,11 +26,9 @@ The inspected portable build already includes the Python runtime and video-proce
 
 **First-run setup may still need to install these components:**
 
-| Component | What it does | Approx. download |
-| --- | --- | --- |
-| **Ollama** | Runs local AI | ~0.7–1 GB |
-| **`llama3.2:3b`** | Analyzes video transcripts and suggests highlights | ~2 GB |
-| **Whisper base** | Speech transcription and subtitle timing | ~150 MB |
+- **Ollama**: Runs local AI (Approx. download: ~0.7 to 1 GB)
+- **`llama3.2:3b`**: Analyzes video transcripts and suggests highlights (Approx. download: ~2 GB)
+- **Whisper base**: Speech transcription and subtitle timing (Approx. download: ~150 MB)
 
 These sizes are estimates. Make sure you have free storage and a reliable internet connection. Approve installations only from trustworthy sources. If the app says FFmpeg is missing, first check that the `bin/` directory was kept with the EXE.
 
@@ -63,6 +61,6 @@ If computer use is unavailable, Claude can still walk you through these steps ma
 
 **Privacy and safety:** Don't disable antivirus/Windows protections; review software warnings carefully. Only process material you have permission to use. The author can't guarantee support or compatibility.
 
- **ViralClip AI — By Otop Sirois**
+ **ViralClip AI by Otop Sirois**
 *Made for fun, friends, and experimentation.*
 
