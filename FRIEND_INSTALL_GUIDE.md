@@ -1,11 +1,11 @@
-# 📥 ViralClip AI — Installation Guide
-### 🧪 Experimental Early Beta • By Otop Sirois
+# ViralClip AI — Installation Guide
+### Experimental Early Beta • By Otop Sirois
 
 Welcome! This started as a personal project for me and my friends, and it's now shared for anyone curious to test.
 
-> ⚠️ **Experimental software.** Installation, AI models, cropping, captions, and exports may have bugs. This isn't a professionally supported release.
+> **Experimental software.** Installation, AI models, cropping, captions, and exports may have bugs. This isn't a professionally supported release.
 
-## 1️⃣ Download the Windows app
+## 1. Download the Windows app
 
 1. Visit **[ViralClip AI — Releases](https://github.com/Otop-creator/ViralClip-AI/releases)**.
 2. If there is a beta release, download **`ViralClipAI_Portable.zip`**.
@@ -15,12 +15,12 @@ Welcome! This started as a personal project for me and my friends, and it's now 
 
 **At present a Windows release may not yet be available.** If the Releases page is empty, wait for the creator to upload a tested ZIP.
 
-✅ Keep the `ViralClipAI.exe`, `_internal/`, and `bin/` contents together.  
-❌ Don't run directly from the ZIP, and don't use a shortcut (`.lnk`) or PyInstaller's temporary `build` folder.
+ Keep the `ViralClipAI.exe`, `_internal/`, and `bin/` contents together.
+ Don't run directly from the ZIP, and don't use a shortcut (`.lnk`) or PyInstaller's temporary `build` folder.
 
 A correctly packaged portable app should not need Python installed separately.
 
-## 2️⃣ Install the AI services 🤖
+## 2. Install the AI services
 
 The inspected portable build already includes the Python runtime and video-processing tools (`bin/ffmpeg.exe` and `bin/ffprobe.exe`).
 
@@ -36,23 +36,23 @@ These sizes are estimates. Make sure you have free storage and a reliable intern
 
 The setup wizard hasn't been verified on every Windows computer, so an installation may need troubleshooting.
 
-## 3️⃣ Use ViralClip AI 🎥 → 🧠 → ✂️ → 📱
+## 3. Use ViralClip AI → → →
 
 1. Open ViralClip AI.
 2. Import an MP4/MOV/MKV/WEBM file or a supported video URL that you're permitted to use.
 3. Try this prompt:
-   > Generate 3 gaming YouTube Shorts in 9:16 with animated word-by-word subtitles. Keep both gameplay and the streamer's facecam visible; don't zoom in on the face.
+ > Generate 3 gaming YouTube Shorts in 9:16 with animated word-by-word subtitles. Keep both gameplay and the streamer's facecam visible; don't zoom in on the face.
 4. Generate, preview, and export your clips.
 
 Clip rankings, quantities, facecam layouts, and subtitles may vary depending on the recording and app version.
 
-## 4️⃣ Optional Claude setup assistance 🤖
+## 4. Optional Claude setup assistance
 
 If your Claude Desktop installation supports **authorized computer use**, you can copy the ready-made prompt from **[CLAUDE_SETUP_PROMPT.md](CLAUDE_SETUP_PROMPT.md)**.
 
 If computer use is unavailable, Claude can still walk you through these steps manually. Always approve installations and changes yourself.
 
-## 5️⃣ Troubleshooting 🛠️
+## 5. Troubleshooting
 
 - **App won't open:** Fully extract the ZIP and keep all bundled folders next to the EXE.
 - **Ollama or model missing:** Reopen the app's setup wizard and verify installations.
@@ -65,5 +65,5 @@ If computer use is unavailable, Claude can still walk you through these steps ma
 
 ---
 
-💜 **ViralClip AI — By Otop Sirois**  
+ **ViralClip AI — By Otop Sirois**
 *Made for fun, friends, and experimentation.*
