@@ -26,7 +26,7 @@ Set up the free local AI services and verify that the app can generate a 9:16 ga
 TASKS:
 1. Verify Windows compatibility and free disk space (aim for at least 10 GB). Explain download sizes before continuing.
 2. With my permission, open the GitHub Releases page. If no portable Windows release is available, stop and tell me. Don't pretend it's published.
-3. Download ViralClipAI_Portable.zip from the official project release only after I approve. Extract to a folder I choose.
+3. Download the portable Windows ZIP from the official project release only after I approve. Extract to a folder I choose.
 4. Verify ViralClipAI.exe and the required support files are present, including _internal, bin/ffmpeg.exe, and bin/ffprobe.exe where supplied.
 5. Try launching the app. Do not install Python if the bundled app runs. Confirm bundled FFmpeg and FFprobe function.
 6. Check whether Ollama is installed and running. If missing, explain what it is and ask before installing it from the official source.
