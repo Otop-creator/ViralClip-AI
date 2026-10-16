@@ -1,77 +1,68 @@
-# 🤖 Install ViralClip AI with Claude Desktop
+# 🤖 ViralClip AI — Claude Desktop Setup Prompt
 
-**🎬 ViralClip AI — By Otop Sirois**
+**🎬 By Otop Sirois • 🧪 Experimental Beta**
 
-This is a ready-to-copy prompt for friends who have Claude Desktop and its **computer-use feature available and authorized**. It asks Claude to inspect the app, install missing local AI services with permission, and test a real clip. Computer use is not available in all environments; if unavailable, use the [manual installation guide](FRIEND_INSTALL_GUIDE.md).
+This page is for anyone who would like **Claude Desktop to help install ViralClip AI on a Windows PC**, when computer use is available and explicitly authorized.
 
-## 📋 Copy this entire prompt into Claude
+Computer use isn't available in every Claude setup. If it isn't available, Claude can guide you step by step instead.
+
+## 📋 Copy the prompt below into Claude
 
 ```text
 # 🎬 VIRALCLIP AI — WINDOWS INSTALLATION & TEST
 
-Help me install and test ViralClip AI — By Otop Sirois on my Windows computer.
+Help me install and test ViralClip AI — By Otop Sirois — on my Windows computer.
 
-Use Claude Desktop computer use only if that feature is available and I explicitly authorize it. If you cannot operate my computer, guide me through the steps instead.
+This is an EXPERIMENTAL personal project shared publicly for friends and others to try. It is not guaranteed to work and is not a professionally supported product.
 
-PRIVATE GITHUB REPO:
+Use Claude Desktop computer use only if available and I explicitly authorize you. Otherwise, guide me manually.
+
+GITHUB:
 https://github.com/Otop-creator/ViralClip-AI
 
-Only use my already-authorized GitHub access. If I do not have permission to view the repository or no Windows release is available, stop and tell me.
-
 GOAL:
-Run ViralClip AI locally with automatic AI highlight selection, 9:16 video editing, and synchronized subtitles. No paid AI APIs.
+Set up the free local AI services and verify that the app can generate a 9:16 gaming clip with subtitles. No paid AI APIs.
 
 TASKS:
+1. Verify Windows compatibility and free disk space (aim for at least 10 GB). Explain download sizes before continuing.
+2. With my permission, open the GitHub Releases page. If no portable Windows release is available, stop and tell me. Don't pretend it's published.
+3. Download ViralClipAI_Portable.zip from the official project release only after I approve. Extract to a folder I choose.
+4. Verify ViralClipAI.exe and the required support files are present, including _internal, bin/ffmpeg.exe, and bin/ffprobe.exe where supplied.
+5. Try launching the app. Do not install Python if the bundled app runs. Confirm bundled FFmpeg and FFprobe function.
+6. Check whether Ollama is installed and running. If missing, explain what it is and ask before installing it from the official source.
+7. Check whether the exact model llama3.2:3b is installed. If missing, ask before downloading it (about 2 GB), and confirm it works locally.
+8. Check whether Whisper base is available to the app. If not, ask before its download (about 150 MB), and test transcription when practical.
+9. Check that the UI and local AI connection work. Ask me to select a short test video I own or am permitted to process.
+10. Run an end-to-end test: import → transcribe → rank highlights → crop 9:16 → add captions → export → play the MP4.
+11. If anything fails, inspect the relevant error and viralclip.log locally and explain targeted fixes. Confirm before any substantial change.
 
-1. Check my Windows version and available free disk space. Prefer at least 10 GB free, and let me know before any major download.
-2. With my permission, download ViralClipAI_Portable.zip from the repository's Releases page and extract it to a location I approve.
-3. Verify the extracted app includes ViralClipAI.exe and all neighbouring support files, including _internal, bin/ffmpeg.exe and bin/ffprobe.exe where present. Do not use PyInstaller's temporary build folder. Don't install Python separately if the packaged runtime works.
-4. Launch ViralClip AI and examine the first-run setup. Check whether FFmpeg and FFprobe work from the app's bundled bin folder.
-5. Check whether Ollama is installed and running. If missing, explain its purpose and size and ask permission before installing it from an official source.
-6. Verify the Ollama model llama3.2:3b is installed. If missing, ask before downloading it (approximately 2 GB). Confirm the model can respond locally.
-7. Verify the Whisper base speech model is available to ViralClip AI. If missing, ask before downloading it (approximately 150 MB). Confirm transcription works when possible.
-8. Verify the interface opens and the local AI backend connects. If requested, test a public video URL only if downloading and reusing it is permitted.
-9. Ask me to choose a short local test video I own or have permission to process. Attempt an end-to-end test: import → transcribe → rank moments → apply 9:16 crop → add animated captions → export playable MP4.
-10. If something fails, inspect only relevant errors, setup diagnostics, and viralclip.log locally. Propose minimal fixes, explain major changes before making them, and report what remains unresolved.
-
-SAFETY & PRIVACY:
-- Ask my approval before downloads, installations, admin elevation, file overwrites, deletions, or system configuration changes.
-- Prefer the app's guided setup and official software sources.
-- Don't disable Windows Defender, SmartScreen, antivirus, or other protections.
-- Don't access browser cookies, saved passwords, or credentials.
-- Don't upload my videos, transcripts, logs, or personal files anywhere.
-- Don't publish or alter my GitHub repositories.
-- Don't claim success without actual end-to-end testing.
+IMPORTANT SAFETY RULES:
+- Ask my approval before each software download, install, administrator prompt, system setting change, overwrite, or deletion.
+- Use trustworthy official sources; never disable Defender, SmartScreen, or other protections.
+- Never access saved passwords, browser cookies, authentication secrets, or private files unrelated to this task.
+- Never upload my videos, logs, credentials, or personal files to external services.
+- Do not publish, edit, or change any GitHub repositories.
 - Stop if I withdraw permission.
+- Do not claim success until actually tested on my computer.
 
 FINAL REPORT:
-Give me a concise pass/fail checklist for:
-- App launch
-- Bundled FFmpeg
-- Ollama running
-- llama3.2:3b working
-- Whisper base transcription
-- AI highlight selection
-- Vertical crop and subtitles
-- MP4 export and playback
-
-Explain any remaining errors in simple terms.
+List what passed or failed: app launch, FFmpeg, Ollama, llama3.2:3b, Whisper, clip ranking, vertical cropping, animated subtitles, MP4 playback. Explain any unverified parts clearly.
 ```
 
-## ⚙️ Services needed
+## ⚙️ Local AI requirements
 
-| Component | How it is supplied | Purpose |
-| --- | --- | --- |
-| ViralClipAI.exe and `_internal/` | Portable ZIP | Runs the Windows app |
-| FFmpeg + FFprobe | Bundled in `bin/` | Video processing |
-| Ollama | First-run install, if missing | Local AI runtime |
-| `llama3.2:3b` | Download if missing (~2 GB) | Highlights and prompts |
-| Whisper base | Download if missing (~150 MB) | Transcription/caption timing |
+| Component | Expected location |
+| --- | --- |
+| `ViralClipAI.exe`, `_internal/`, `bin/` | Included in portable app ZIP |
+| FFmpeg + FFprobe | Included in inspected portable build |
+| Ollama | Installed separately if absent |
+| `llama3.2:3b` | Model downloaded on first run if absent |
+| Whisper base | Speech model downloaded if absent |
 
-Windows 11 is the target; at least 16 GB RAM is recommended. Sizes vary by version. **A portable ZIP must be extracted fully before launching.**
+An internet connection is usually needed for initial downloads. Windows 11 64-bit is the target; 16 GB RAM is recommended.
 
-## 🔒 Private beta
+> ⚠️ **Experimental software:** Even with Claude's help, the app may not work correctly on your machine. Review downloads and changes yourself.
 
-Only invited GitHub collaborators can open this private repository. Please don't redistribute the app without checking with the creator. Only process videos you own or are permitted to use.
+---
 
 **💜 ViralClip AI — By Otop Sirois**
