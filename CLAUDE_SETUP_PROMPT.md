@@ -63,7 +63,5 @@ An internet connection is usually needed for initial downloads. Windows 11 64-bi
 
 > **Experimental software:** Even with Claude's help, the app may not work correctly on your machine. Review downloads and changes yourself.
 
----
-
 **ViralClip AI — By Otop Sirois**
 
