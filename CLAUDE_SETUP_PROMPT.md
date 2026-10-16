@@ -1,4 +1,4 @@
-# ViralClip AI — Claude Desktop Setup Prompt
+# ViralClip AI Claude Desktop Setup Prompt
 
 **By Otop Sirois • Experimental Beta**
 
@@ -9,7 +9,7 @@ Computer use isn't available in every Claude setup. If it isn't available, Claud
 ## Copy the prompt below into Claude
 
 ```text
-# VIRALCLIP AI — WINDOWS INSTALLATION & TEST
+# VIRALCLIP AI WINDOWS INSTALLATION & TEST
 
 Help me install and test ViralClip AI by Otop Sirois on my Windows computer.
 
@@ -51,17 +51,15 @@ List what passed or failed: app launch, FFmpeg, Ollama, llama3.2:3b, Whisper, cl
 
 ## Local AI requirements
 
-| Component | Expected location |
-| --- | --- |
-| `ViralClipAI.exe`, `_internal/`, `bin/` | Included in portable app ZIP |
-| FFmpeg + FFprobe | Included in inspected portable build |
-| Ollama | Installed separately if absent |
-| `llama3.2:3b` | Model downloaded on first run if absent |
-| Whisper base | Speech model downloaded if absent |
+- `ViralClipAI.exe`, `_internal/`, `bin/`: Included in portable app ZIP
+- FFmpeg + FFprobe: Included in inspected portable build
+- Ollama: Installed separately if absent
+- `llama3.2:3b`: Model downloaded on first run if absent
+- Whisper base: Speech model downloaded if absent
 
 An internet connection is usually needed for initial downloads. Windows 11 64-bit is the target; 16 GB RAM is recommended.
 
 > **Experimental software:** Even with Claude's help, the app may not work correctly on your machine. Review downloads and changes yourself.
 
-**ViralClip AI — By Otop Sirois**
+**ViralClip AI by Otop Sirois**
 
