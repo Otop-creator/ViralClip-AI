@@ -83,7 +83,5 @@ https://github.com/Otop-creator/ViralClip-AI
 
 Ask testers for feedback. Keep changes incremental and label each unverified update as experimental.
 
----
-
 ** ViralClip AI — By Otop Sirois**
 
