@@ -36,6 +36,34 @@ On first launch, follow the application's setup wizard and approve the missing-c
 
 **Note:** The ZIP was inspected for contents, but the setup wizard and app haven't been verified on your friend's PC yet. If the wizard doesn't install a component correctly, share the error with Otop for troubleshooting.
 
+## 🤖 Optional: Set everything up using Claude Desktop
+
+If you have **Claude Desktop with computer-use access**, you can ask it to help install and test ViralClip AI on your Windows PC. Computer control must be enabled and authorized by you; not every Claude setup supports it.
+
+**Copy this prompt into Claude:**
+
+> I want you to help me install and test ViralClip AI — By Otop Sirois on my Windows PC using computer use, if available.
+>
+> **The app:** Private GitHub repository at https://github.com/Otop-creator/ViralClip-AI . I must have been invited to access it. The downloadable release should contain `ViralClipAI_Portable.zip`. If no release is available, stop and tell me.
+>
+> **Your tasks, in order:**
+> 1. Confirm I have approved computer use. Check Windows version, free disk space (aim for at least 10 GB), and the release download. Explain estimated download sizes before proceeding.
+> 2. With my approval, download the portable ZIP from the private GitHub release. Extract it into a folder I choose. Don't overwrite existing files without asking.
+> 3. Confirm `ViralClipAI.exe`, `_internal/`, and `bin/ffmpeg.exe` plus `bin/ffprobe.exe` are present. Don't install Python or FFmpeg again when the packaged version is usable.
+> 4. Launch the app and use its first-launch setup. Detect whether **Ollama** is installed and running; if missing, ask me before installing it from the official source.
+> 5. Check whether the exact Ollama model **`llama3.2:3b`** is available (`ollama list`). If missing, ask my permission to download it (about 2 GB); verify it loads and responds locally.
+> 6. Check whether the **Whisper base** speech model is available to ViralClip AI. If missing, ask my permission for the app to download it (roughly 150 MB). Verify actual transcription when practical.
+> 7. Verify that video tools work, the AI backend connects, and the app's interface opens correctly. Use a short local video **only after I choose and approve it**. Try generating one 9:16 clip with captions and confirm the MP4 plays.
+> 8. If any step fails, collect the exact error and inspect `viralclip.log` locally. Attempt only targeted fixes, explaining significant changes before applying them. Tell me what works and what still needs fixing.
+>
+> **Safety and privacy rules:** Ask me before each download, installation, administrator prompt, system-setting change, or deletion. Use legitimate official sources. Do not disable antivirus, Windows protections, or security warnings. Do not upload my videos, logs, tokens, or credentials anywhere. Do not access browser cookies or saved passwords. Do not modify or publish the GitHub repository. Keep me informed as you go, and stop if I withdraw permission.
+>
+> **Final result:** Help me get ViralClip AI running with local AI, clip generation, and subtitles without paid API credits. Give me a concise pass/fail checklist and clearly state anything unverified. Don't claim success until tested on my PC.
+
+**Note:** Claude cannot control your computer unless the relevant computer-use feature is available, enabled, and authorized. If it isn't, Claude can guide you through the same steps manually.
+
+---
+
 ## 3️⃣ Generate a clip 🎥 → 🧠 → ✂️ → 📱
 
 1. Import an allowed video URL or a local MP4.
