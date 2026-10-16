@@ -1,35 +1,35 @@
 # 🎬 ViralClip AI
-### 🤖 Local AI Video Clipping • ✂️ Highlights • 💬 Animated Subtitles • 📱 Shorts
+### Local AI Video Clipping • Highlights • Animated Subtitles • Shorts
 
-**✨ Created by Otop Sirois ✨**
+** Created by Otop Sirois **
 
-> 🧪 **EXPERIMENTAL PROJECT / EARLY BETA**
+> **EXPERIMENTAL PROJECT / EARLY BETA**
 >
 > ViralClip AI is a personal experiment I made primarily for **myself and my friends to try**. I'm sharing the project so others can experiment with it too.
 >
 > **This is not a finished or professionally supported product.** Expect bugs, unfinished features, inconsistent results, and possible compatibility problems. Use it at your own discretion and keep backups of important videos.
 
-**🎥 Import → 🧠 Analyze → ✂️ Clip → 💬 Caption → 📱 Export**
+** Import → Analyze → Clip → Caption → Export**
 
-## 🚀 What is ViralClip AI?
+## What is ViralClip AI?
 
 ViralClip AI is an experimental Windows desktop app for identifying promising highlights in videos, gaming streams, and podcasts, then turning them into short vertical clips.
 
 It is designed to use **free local AI**, rather than paid API credits. Processing speed and results depend on your computer, the video, and the models.
 
-## ✨ Experimental features
+## Experimental features
 
-- 🔗 Import supported video links or MP4, MOV, MKV, and WEBM files
-- 🧠 Highlight recommendations powered by Ollama and Llama 3.2 3B
-- 🎮 Gaming clips with gameplay/facecam layouts (framing is still being improved)
-- 📱 9:16 YouTube Shorts, TikTok, and Reels formats
-- 💬 Speech transcription and automatic animated subtitles
-- ✍️ Prompt-based requests, e.g. **"Generate 3 gaming clips in 9:16 with subtitles"**
-- 🎞️ Preview, edit, and export MP4 clips
+- Import supported video links or MP4, MOV, MKV, and WEBM files
+- Highlight recommendations powered by Ollama and Llama 3.2 3B
+- Gaming clips with gameplay/facecam layouts (framing is still being improved)
+- 9:16 YouTube Shorts, TikTok, and Reels formats
+- Speech transcription and automatic animated subtitles
+- Prompt-based requests, e.g. **"Generate 3 gaming clips in 9:16 with subtitles"**
+- Preview, edit, and export MP4 clips
 
 These are **experimental features**, not promises of reliable performance. AI highlight scores are subjective estimates, not guarantees of virality.
 
-## 📥 Download and installation
+## Download and installation
 
 **A downloadable Windows release has not been published here yet.** When a tested portable ZIP is available:
 
@@ -41,11 +41,11 @@ These are **experimental features**, not promises of reliable performance. AI hi
 
 **Keep the entire application folder together.** Do not use a lone `.exe` from a one-folder build, a `.lnk` shortcut, or a source-only ZIP as the portable app.
 
-📖 **[Step-by-step installation guide](FRIEND_INSTALL_GUIDE.md)**
+ **[Step-by-step installation guide](FRIEND_INSTALL_GUIDE.md)**
 
-🤖 **[Optional: Let Claude Desktop guide the installation](CLAUDE_SETUP_PROMPT.md)**
+ **[Optional: Let Claude Desktop guide the installation](CLAUDE_SETUP_PROMPT.md)**
 
-## ⚙️ Requirements
+## Requirements
 
 | Component | Notes |
 | --- | --- |
@@ -59,7 +59,7 @@ These are **experimental features**, not promises of reliable performance. AI hi
 
 An internet connection is needed for initial model downloads. No paid AI API credits are required for local inference.
 
-## 🔧 Bugs, limitations, and feedback
+## Bugs, limitations, and feedback
 
 This app is a **personal learning and experimentation project**. It has not been independently validated across different Windows machines.
 
@@ -69,12 +69,12 @@ Do not disable Windows security protections to run an unfamiliar binary. Inspect
 
 **Only download and reuse videos you own or have permission to process.** Some sites restrict downloading and reuse.
 
-## 💜 Note from the creator
+## Note from the creator
 
 I originally built ViralClip AI to experiment with clipping streams and generating Shorts for myself and my buddies. It's still a work in progress, but I figured I'd share the experiment for anyone interested in trying it out.
 
-**Don't expect perfection — it's just a fun project I'm learning from.** 🎮✨
+**Don't expect perfection — it's just a fun project I'm learning from.**
 
 ---
 
-**🎬 ViralClip AI — By Otop Sirois**
+** ViralClip AI — By Otop Sirois**
