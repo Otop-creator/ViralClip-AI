@@ -31,10 +31,10 @@ These are **experimental features**, not promises of reliable performance. AI hi
 
 ## Download and installation
 
-**A downloadable Windows release has not been published here yet.** When a tested portable ZIP is available:
+**An experimental Windows beta is available.** The app has not been verified on every computer, so expect possible setup issues.
 
-1. Open **[Releases](../../releases)**.
-2. Download `ViralClipAI_Portable.zip` from the relevant beta release.
+1. Open the **[ViralClip AI beta release](../../releases/tag/v1.0.0-beta)**.
+2. Under **Assets**, download the portable ZIP file.
 3. Right-click the ZIP → **Extract All**.
 4. Open the extracted folder and double-click **`ViralClipAI.exe`**.
 5. Follow the application's first-run setup for any missing AI tools or models.
