@@ -75,7 +75,5 @@ I originally built ViralClip AI to experiment with clipping streams and generati
 
 **Don't expect perfection — it's just a fun project I'm learning from.**
 
----
-
 **ViralClip AI — By Otop Sirois**
 
