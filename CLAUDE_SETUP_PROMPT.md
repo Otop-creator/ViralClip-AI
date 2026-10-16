@@ -1,6 +1,6 @@
 # ViralClip AI — Claude Desktop Setup Prompt
 
-** By Otop Sirois • Experimental Beta**
+**By Otop Sirois • Experimental Beta**
 
 This page is for anyone who would like **Claude Desktop to help install ViralClip AI on a Windows PC**, when computer use is available and explicitly authorized.
 
@@ -65,4 +65,4 @@ An internet connection is usually needed for initial downloads. Windows 11 64-bi
 
 ---
 
-** ViralClip AI — By Otop Sirois**
+**ViralClip AI — By Otop Sirois**
