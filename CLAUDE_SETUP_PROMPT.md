@@ -29,7 +29,7 @@ TASKS:
 3. Download the portable Windows ZIP from the official project release only after I approve. Extract to a folder I choose.
 4. Verify ViralClipAI.exe and the required support files are present, including _internal, bin/ffmpeg.exe, and bin/ffprobe.exe where supplied.
 5. Try launching the app. Do not install Python if the bundled app runs. Confirm bundled FFmpeg and FFprobe function.
-6. Check whether Ollama is installed and running. If missing, explain what it is and ask before installing it from the official source.
+6. Check whether Ollama is installed. For v1.1.0-beta, test that ViralClip AI can start an installed but stopped Ollama service in the background and show its connection status. Do not start duplicate instances. If Ollama is missing, explain what it is and ask before installing it from the official source.
 7. Check whether the exact model llama3.2:3b is installed. If missing, ask before downloading it (about 2 GB), and confirm it works locally.
 8. Check whether Whisper base is available to the app. If not, ask before its download (about 150 MB), and test transcription when practical.
 9. Check that the UI and local AI connection work. Ask me to select a short test video I own or am permitted to process.
@@ -46,7 +46,7 @@ IMPORTANT SAFETY RULES:
 - Do not claim success until actually tested on my computer.
 
 FINAL REPORT:
-List what passed or failed: app launch, FFmpeg, Ollama, llama3.2:3b, Whisper, clip ranking, vertical cropping, animated subtitles, MP4 playback. Explain any unverified parts clearly.
+List what passed or failed: app launch, FFmpeg, Ollama auto-start and connection status, llama3.2:3b, Whisper, clip ranking, vertical cropping, animated subtitles, MP4 playback. Explain any unverified parts clearly.
 ```
 
 ## Local AI requirements
