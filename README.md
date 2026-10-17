@@ -21,7 +21,8 @@ It is designed to use **free local AI**, rather than paid API credits. Processin
 
 - Import supported video links or MP4, MOV, MKV, and WEBM files
 - Highlight recommendations powered by Ollama and Llama 3.2 3B
-- Gaming clips with gameplay/facecam layouts (framing is still being improved)
+- Automatic Ollama startup when installed, with live connection status (v1.1.0-beta)
+- Gaming clips with gameplay/facecam framing for vertical exports (still experimental)
 - 9:16 YouTube Shorts, TikTok, and Reels formats
 - Speech transcription and automatic animated subtitles
 - Prompt-based requests, e.g. **"Generate 3 gaming clips in 9:16 with subtitles"**
@@ -33,17 +34,21 @@ These are **experimental features**, not promises of reliable performance. AI hi
 
 **An experimental Windows beta is available.** The app has not been verified on every computer, so expect possible setup issues.
 
-1. Open the **[ViralClip AI beta release](../../releases/tag/v1.0.0-beta)**.
+1. Open the **[latest ViralClip AI beta release](../../releases/latest)** or see **[all versions](../../releases)**.
 2. Under **Assets**, download the portable ZIP file.
 3. Right-click the ZIP → **Extract All**.
 4. Open the extracted folder and double-click **`ViralClipAI.exe`**.
-5. Follow the application's first-run setup for any missing AI tools or models.
+5. Follow the application's first-run setup for any missing AI tools or models. In v1.1.0-beta, the app checks for Ollama at startup and can start an installed Ollama service automatically.
 
 **Keep the entire application folder together.** Do not use a lone `.exe` from a one-folder build, a `.lnk` shortcut, or a source-only ZIP as the portable app.
 
  **[Step-by-step installation guide](FRIEND_INSTALL_GUIDE.md)**
 
  **[Optional: Let Claude Desktop guide the installation](CLAUDE_SETUP_PROMPT.md)**
+
+## Current beta
+
+**v1.1.0-beta** adds automatic background startup for an installed Ollama service and a connection-status indicator. You still need to install Ollama and download the required models if they are not already present. Review exported clips before sharing, especially gameplay framing and subtitles.
 
 ## Requirements
 
