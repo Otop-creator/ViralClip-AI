@@ -7,7 +7,7 @@ Welcome! This started as a personal project for me and my friends, and it's now 
 
 ## 1. Download the Windows app
 
-1. Visit **[ViralClip AI Releases](https://github.com/Otop-creator/ViralClip-AI/releases)**.
+1. Visit **[ViralClip AI Releases](https://github.com/Otop-creator/ViralClip-AI/releases)** and choose the latest published beta.
 2. Under **Assets**, download the portable Windows ZIP file.
 3. Right-click the downloaded ZIP and choose **Extract All**.
 4. Open the extracted app folder and find **`ViralClipAI.exe`**.
@@ -32,9 +32,11 @@ The inspected portable build already includes the Python runtime and video-proce
 
 These sizes are estimates. Make sure you have free storage and a reliable internet connection. Approve installations only from trustworthy sources. If the app says FFmpeg is missing, first check that the `bin/` directory was kept with the EXE.
 
+Starting with v1.1.0-beta, ViralClip AI can detect and start an installed Ollama service in the background when the app opens. Check the in-app connection status while it starts. If Ollama or the model is missing, use the setup wizard and approve any necessary downloads.
+
 The setup wizard hasn't been verified on every Windows computer, so an installation may need troubleshooting.
 
-## 3. Use ViralClip AI → → →
+## 3. Create and export clips
 
 1. Open ViralClip AI.
 2. Import an MP4/MOV/MKV/WEBM file or a supported video URL that you're permitted to use.
@@ -53,7 +55,7 @@ If computer use is unavailable, Claude can still walk you through these steps ma
 ## 5. Troubleshooting
 
 - **App won't open:** Fully extract the ZIP and keep all bundled folders next to the EXE.
-- **Ollama or model missing:** Reopen the app's setup wizard and verify installations.
+- **Ollama or model missing:** Check the AI connection status. If Ollama is installed, allow it time to start or try Retry; if the app or model is missing, use the setup wizard.
 - **Video URL fails:** Try a local video; some sites restrict downloads.
 - **No captions:** Confirm the Whisper model installed and the video contains intelligible speech.
 - **Gameplay barely visible:** Try a gameplay-first or split-screen framing option if your version supports it; cropping is still experimental.
