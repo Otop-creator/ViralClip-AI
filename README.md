@@ -34,7 +34,7 @@ These are **experimental features**, not promises of reliable performance. AI hi
 
 **An experimental Windows beta is available.** The app has not been verified on every computer, so expect possible setup issues.
 
-1. Open the **[latest ViralClip AI beta release](../../releases/latest)** or see **[all versions](../../releases)**.
+1. Open the **[ViralClip AI v1.1.0-beta](../../releases/tag/v1.1.0-beta)** or see **[all versions](../../releases)**.
 2. Under **Assets**, download the portable ZIP file.
 3. Right-click the ZIP → **Extract All**.
 4. Open the extracted folder and double-click **`ViralClipAI.exe`**.
