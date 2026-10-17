@@ -55,11 +55,11 @@ Do not upload `ViralClipAI_Final.zip` (source-only) as though it were the ready-
 ## 5. Publish the beta on GitHub
 
 1. Open **[Create a new release](https://github.com/Otop-creator/ViralClip-AI/releases/new)**.
-2. Create tag: `v1.0.0-beta` (or the actual tested version).
+2. Create a new version tag, such as `v1.2.0-beta`. Do not reuse an existing release tag for a new build.
 3. Title: ** ViralClip AI Experimental Beta | By Otop Sirois**.
 4. Description:
  > Personal experimental project built mainly for myself and friends to try. Now sharing it for anyone interested. Expect bugs and compatibility issues; this is not a professionally supported product. Extract the ZIP, launch ViralClipAI.exe, and follow the local AI setup steps.
-5. Attach `ViralClipAI_Portable.zip` in **Assets**.
+5. Attach the complete Windows portable ZIP in **Assets**, not in the release description field.
 6. Select **Set as a pre-release** and publish.
 7. Verify the ZIP appears on the [Releases page](https://github.com/Otop-creator/ViralClip-AI/releases).
 
@@ -77,6 +77,9 @@ Once you've reviewed the repository for private information:
  **Making a repository public exposes its contents and history to everyone.** Review carefully before confirming. Publishing the repository and uploading a release are separate actions.
 
 ## 7. After release
+
+Keep older beta releases available so testers can roll back if needed. The published v1.1.0-beta adds automatic Ollama startup and in-app connection status. Do not list proposed features as released until they are implemented, tested, and included in the downloadable build.
+
 
 Share the repository link:
 https://github.com/Otop-creator/ViralClip-AI
