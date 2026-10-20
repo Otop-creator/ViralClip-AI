@@ -1,82 +1,58 @@
-# 🎬 ViralClip AI
-### Local AI Video Clipping • Highlights • Animated Subtitles • Shorts
+# ViralClip AI
 
-**Created by Otop Sirois**
+**Experimental local AI video clipping app for Windows**
 
-> **EXPERIMENTAL PROJECT / EARLY BETA**
->
-> ViralClip AI is a personal experiment I made primarily for **myself and my friends to try**. I'm sharing the project so others can experiment with it too.
->
-> **This is not a finished or professionally supported product.** Expect bugs, unfinished features, inconsistent results, and possible compatibility problems. Use it at your own discretion and keep backups of important videos.
+Created by Otop Sirois. A personal project built for myself and friends to experiment with. This is an early beta, not a finished or professionally supported product.
 
-**Import → Analyze → Clip → Caption → Export**
+## Latest download
 
-## What is ViralClip AI?
+**ViralClip AI V3 — v1.2.0-beta**
 
-ViralClip AI is an experimental Windows desktop app for identifying promising highlights in videos, gaming streams, and podcasts, then turning them into short vertical clips.
+[Download ViralClip AI V3 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.2.0-beta/ViralClipAI.V3_Portable.zip)
 
-It is designed to use **free local AI**, rather than paid API credits. Processing speed and results depend on your computer, the video, and the models.
+[View V3 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.2.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
 
-## Experimental features
+## Features (experimental)
 
-- Import supported video links or MP4, MOV, MKV, and WEBM files
-- Highlight recommendations powered by Ollama and Llama 3.2 3B
-- Automatic Ollama startup when installed, with live connection status (v1.1.0-beta)
-- Gaming clips with gameplay/facecam framing for vertical exports (still experimental)
-- 9:16 YouTube Shorts, TikTok, and Reels formats
-- Speech transcription and automatic animated subtitles
-- Prompt-based requests, e.g. **"Generate 3 gaming clips in 9:16 with subtitles"**
-- Preview, edit, and export MP4 clips
+- Import video files or supported video links
+- AI-assisted highlight selection for streams, gaming videos, and podcasts
+- Generate vertical Shorts with animated captions
+- Automatic facecam and gameplay framing, with manual editing controls
+- Clip library, project history, and clip deletion
+- Save editing changes and export finished MP4 clips
+- YouTube publishing through a personal Google OAuth connection
+- Local AI analysis with Ollama and Llama 3.2 3B
 
-These are **experimental features**, not promises of reliable performance. AI highlight scores are subjective estimates, not guarantees of virality.
+These features are still being developed. Automatic framing, clip selection, saved edits, and uploads may not work perfectly on every system. AI scores cannot guarantee views.
 
-## Download and installation
+## Installation
 
-**An experimental Windows beta is available.** The app has not been verified on every computer, so expect possible setup issues.
+1. Download the **V3 portable ZIP** from the link above.
+2. Right-click the ZIP and select **Extract All**.
+3. Open the extracted application folder.
+4. Run `ViralClipAI.exe`.
+5. Follow any setup instructions for missing local AI tools or models.
 
-1. Open the **[ViralClip AI v1.1.0-beta](../../releases/tag/v1.1.0-beta)** or see **[all versions](../../releases)**.
-2. Under **Assets**, download the portable ZIP file.
-3. Right-click the ZIP → **Extract All**.
-4. Open the extracted folder and double-click **`ViralClipAI.exe`**.
-5. Follow the application's first-run setup for any missing AI tools or models. In v1.1.0-beta, the app checks for Ollama at startup and can start an installed Ollama service automatically.
+Keep the entire extracted folder together. Do not run the EXE alone outside its packaged folder.
 
-**Keep the entire application folder together.** Do not use a lone `.exe` from a one-folder build, a `.lnk` shortcut, or a source-only ZIP as the portable app.
-
- **[Step-by-step installation guide](FRIEND_INSTALL_GUIDE.md)**
-
- **[Optional: Let Claude Desktop guide the installation](CLAUDE_SETUP_PROMPT.md)**
-
-## Current beta
-
-**v1.1.0-beta** adds automatic background startup for an installed Ollama service and a connection-status indicator. You still need to install Ollama and download the required models if they are not already present. Review exported clips before sharing, especially gameplay framing and subtitles.
+[Step-by-step installation guide](FRIEND_INSTALL_GUIDE.md) | [Claude Desktop setup prompt](CLAUDE_SETUP_PROMPT.md)
 
 ## Requirements
 
-- Windows 11, 64-bit: Main target; other platforms not verified
-- RAM: 16 GB recommended
-- Free disk space: Allow at least several GB for setup, app, and AI models
-- FFmpeg + FFprobe: Included with the inspected portable build
-- Ollama: Installed separately if missing
-- `llama3.2:3b`: Local analysis model, approximately 2 GB
-- Whisper base: Speech model, approximately 150 MB
+- Windows 11 (64-bit) is the main target
+- 16 GB RAM recommended
+- Several GB of free disk space for the app, temporary clips, and AI models
+- Ollama and the `llama3.2:3b` model for local analysis, if not already installed
+- Internet connection for setup, importing online videos, and YouTube publishing
 
-An internet connection is needed for initial model downloads. No paid AI API credits are required for local inference.
+No paid AI API credits are required for local analysis. YouTube publishing requires your own Google Cloud OAuth credentials and authorization.
 
-## Bugs, limitations, and feedback
+## Bugs and feedback
 
-This app is a **personal learning and experimentation project**. It has not been independently validated across different Windows machines.
+ViralClip AI is a personal experiment. Expect bugs and compatibility issues; review generated clips before publishing and keep backups of important videos.
 
-If something breaks, you're welcome to describe the problem. You can check **Settings → Open Log Folder → `viralclip.log`**. **Remove personal paths, secrets, and any private data before sharing logs publicly.**
+If something breaks, check **Settings → Open Log Folder → `viralclip.log`** when available. Remove personal information and tokens before sharing logs.
 
-Do not disable Windows security protections to run an unfamiliar binary. Inspect downloads and use only sources you trust.
-
-**Only download and reuse videos you own or have permission to process.** Some sites restrict downloading and reuse.
-
-## Note from the creator
-
-I originally built ViralClip AI to experiment with clipping streams and generating Shorts for myself and my buddies. It's still a work in progress, but I figured I'd share the experiment for anyone interested in trying it out.
-
-**Don't expect perfection. It's just a fun project I'm learning from.**
+Only download, edit, and republish videos you have the necessary rights or permission to use.
 
 **ViralClip AI by Otop Sirois**
-
