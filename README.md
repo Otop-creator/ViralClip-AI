@@ -6,11 +6,11 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 
 ## Latest download
 
-**ViralClip AI V3 — v1.2.0-beta**
+**ViralClip AI V3.1 — v1.3.0-beta**
 
-[Download ViralClip AI V3 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.2.0-beta/ViralClipAI.V3_Portable.zip)
+[Download ViralClip AI V3.1 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.3.0-beta/ViralClipAI.V3.1_Portable.zip)
 
-[View V3 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.2.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
+[View V3.1 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.3.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
 
 ## Features (experimental)
 
@@ -18,6 +18,9 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 - AI-assisted highlight selection for streams, gaming videos, and podcasts
 - Generate vertical Shorts with animated captions
 - Automatic facecam and gameplay framing, with manual editing controls
+- Facecam position and size: sliders, typed 0–100 % values, drag-to-reposition in the preview, Reset Position/Size
+- Preview clip candidates first, then render only the ones you pick (Generate Selected)
+- Batch queue for several videos or links, and viral score explanations (hook, humor, pacing, context, payoff)
 - Clip library, project history, and clip deletion
 - Save editing changes and export finished MP4 clips
 - YouTube publishing through a personal Google OAuth connection
@@ -27,7 +30,7 @@ These features are still being developed. Automatic framing, clip selection, sav
 
 ## Installation
 
-1. Download the **V3 portable ZIP** from the link above.
+1. Download the **V3.1 portable ZIP** from the link above.
 2. Right-click the ZIP and select **Extract All**.
 3. Open the extracted application folder.
 4. Run `ViralClipAI.exe`.
