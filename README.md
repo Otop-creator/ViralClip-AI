@@ -6,11 +6,11 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 
 ## Latest download
 
-**ViralClip AI V4 — v1.4.0-beta**
+**ViralClip AI V4.1 — v1.4.1-beta**
 
-[Download ViralClip AI V4 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.4.0-beta/ViralClipAI.V4_Portable.zip)
+[Download ViralClip AI V4.1 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.4.1-beta/ViralClipAI_V4.1_Portable.zip)
 
-[View V4 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.4.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
+[View V4.1 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.4.1-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
 
 ## Features (experimental)
 
@@ -20,19 +20,20 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 - Automatic facecam and gameplay framing, with manual editing controls
 - Facecam position and size: sliders, typed 0–100 % values, drag-to-reposition in the preview, Reset Position/Size
 - Preview clip candidates first, then render only the ones you pick (Generate Selected)
+- Context-aware clips that keep the setup and payoff, and never run past your chosen length
 - Batch queue for several videos or links, and viral score explanations (hook, humor, pacing, context, payoff)
 - Clip library, project history, and clip deletion
 - Save editing changes and export finished MP4 clips
 - Watch the edited 9:16 Short inside the app: Play / Pause / Seek / Replay with captions and audio, no export needed
 - Saved AI prompt presets (built-in "Funny Streamer Shorts")
 - YouTube publishing through a personal Google OAuth connection
-- Local AI analysis with Ollama and Llama 3.2 3B
+- Local AI analysis with Ollama and Llama 3.2 3B (optional Qwen3 4B in Settings → AI model)
 
 These features are still being developed. Automatic framing, clip selection, saved edits, and uploads may not work perfectly on every system. AI scores cannot guarantee views.
 
 ## Installation
 
-1. Download the **V4 portable ZIP** from the link above.
+1. Download the **V4.1 portable ZIP** from the link above.
 2. Right-click the ZIP and select **Extract All**.
 3. Open the extracted application folder.
 4. Run `ViralClipAI.exe`.
