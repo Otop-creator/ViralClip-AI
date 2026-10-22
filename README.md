@@ -6,11 +6,11 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 
 ## Latest download
 
-**ViralClip AI V3.1 — v1.3.0-beta**
+**ViralClip AI V4 — v1.4.0-beta**
 
-[Download ViralClip AI V3.1 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.3.0-beta/ViralClipAI.V3.1_Portable.zip)
+[Download ViralClip AI V4 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.4.0-beta/ViralClipAI_V4_Portable.zip)
 
-[View V3.1 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.3.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
+[View V4 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.4.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
 
 ## Features (experimental)
 
@@ -23,6 +23,8 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 - Batch queue for several videos or links, and viral score explanations (hook, humor, pacing, context, payoff)
 - Clip library, project history, and clip deletion
 - Save editing changes and export finished MP4 clips
+- Watch the edited 9:16 Short inside the app: Play / Pause / Seek / Replay with captions and audio, no export needed
+- Saved AI prompt presets (built-in "Funny Streamer Shorts")
 - YouTube publishing through a personal Google OAuth connection
 - Local AI analysis with Ollama and Llama 3.2 3B
 
@@ -30,7 +32,7 @@ These features are still being developed. Automatic framing, clip selection, sav
 
 ## Installation
 
-1. Download the **V3.1 portable ZIP** from the link above.
+1. Download the **V4 portable ZIP** from the link above.
 2. Right-click the ZIP and select **Extract All**.
 3. Open the extracted application folder.
 4. Run `ViralClipAI.exe`.
