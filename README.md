@@ -8,7 +8,7 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 
 **ViralClip AI V4 — v1.4.0-beta**
 
-[Download ViralClip AI V4 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.4.0-beta/ViralClipAI_V4_Portable.zip)
+[Download ViralClip AI V4 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.4.0-beta/ViralClipAI.V4_Portable.zip)
 
 [View V4 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.4.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
 
