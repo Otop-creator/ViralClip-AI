@@ -6,11 +6,11 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 
 ## Latest download
 
-**ViralClip AI V4.1 — v1.4.1-beta**
+**ViralClip AI V5 — v1.5.0-beta**
 
-[Download ViralClip AI V4.1 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.4.1-beta/ViralClipAI_V4.1_Portable.zip)
+[Download ViralClip AI V5 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.5.0-beta/ViralClipAI_V5_Portable.zip)
 
-[View V4.1 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.4.1-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
+[View V5 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.5.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
 
 ## Features (experimental)
 
@@ -20,7 +20,11 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 - Automatic facecam and gameplay framing, with manual editing controls
 - Facecam position and size: sliders, typed 0–100 % values, drag-to-reposition in the preview, Reset Position/Size
 - Preview clip candidates first, then render only the ones you pick (Generate Selected)
+- Smarter funny-moment detection: complete jokes, banter, sarcasm and surprises over random yelling
 - Context-aware clips that keep the setup and payoff, and never run past your chosen length
+- Varied picks: no repeated jokes, one clip per conversation, spread across the whole video
+- Keep / Reject feedback on candidates: rejected moments aren't recommended again
+- Automatic quality checks before export and upload (audio, black frames, resolution, cut-off speech)
 - Batch queue for several videos or links, and viral score explanations (hook, humor, pacing, context, payoff)
 - Clip library, project history, and clip deletion
 - Save editing changes and export finished MP4 clips
@@ -33,7 +37,7 @@ These features are still being developed. Automatic framing, clip selection, sav
 
 ## Installation
 
-1. Download the **V4.1 portable ZIP** from the link above.
+1. Download the **V5 portable ZIP** from the link above.
 2. Right-click the ZIP and select **Extract All**.
 3. Open the extracted application folder.
 4. Run `ViralClipAI.exe`.
