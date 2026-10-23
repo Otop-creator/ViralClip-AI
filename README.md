@@ -6,14 +6,16 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 
 ## Latest download
 
-**ViralClip AI V5 — v1.5.0-beta**
+**ViralClip AI V6 — v1.6.0-beta**
 
-[Download ViralClip AI V5 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.5.0-beta/ViralClipAI_V5_Portable.zip)
+[Download ViralClip AI V6 Portable (Windows ZIP)](https://github.com/Otop-creator/ViralClip-AI/releases/download/v1.6.0-beta/ViralClipAI_V6_Portable.zip)
 
-[View V5 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.5.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
+[View V6 release notes](https://github.com/Otop-creator/ViralClip-AI/releases/tag/v1.6.0-beta) | [Older versions](https://github.com/Otop-creator/ViralClip-AI/releases)
 
 ## Features (experimental)
 
+- New V6 design: a premium navy theme, a dashboard with quick actions and stats, and a cleaner clip library
+- Professional editor: original video, a large 9:16 preview, settings tabs, and a clickable timeline of every clip
 - Import video files or supported video links
 - AI-assisted highlight selection for streams, gaming videos, and podcasts
 - Generate vertical Shorts with animated captions
@@ -31,13 +33,13 @@ Created by Otop Sirois. A personal project built for myself and friends to exper
 - Watch the edited 9:16 Short inside the app: Play / Pause / Seek / Replay with captions and audio, no export needed
 - Saved AI prompt presets (built-in "Funny Streamer Shorts")
 - YouTube publishing through a personal Google OAuth connection
-- Local AI analysis with Ollama and Llama 3.2 3B (optional Qwen3 4B in Settings → AI model)
+- Local AI analysis with Ollama and Llama 3.2 3B
 
 These features are still being developed. Automatic framing, clip selection, saved edits, and uploads may not work perfectly on every system. AI scores cannot guarantee views.
 
 ## Installation
 
-1. Download the **V5 portable ZIP** from the link above.
+1. Download the **V6 portable ZIP** from the link above.
 2. Right-click the ZIP and select **Extract All**.
 3. Open the extracted application folder.
 4. Run `ViralClipAI.exe`.
